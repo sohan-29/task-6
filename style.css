@@ -11,6 +11,7 @@ body {
     padding-bottom: 0.1rem;
     border-bottom: 0.3rem solid white;
     margin-bottom: 1px;
+    margin-top: 1.8rem;
 }
 
 .contactForm {
@@ -63,6 +64,13 @@ label {
 
 .input:focus {
     outline: 1px solid#82ff1f;
+}
+
+.toastMessage {
+    margin-top: 0.3rem;
+    margin-bottom: 1px;
+    width: 100%;
+    text-align: center;
 }
 
 .button {

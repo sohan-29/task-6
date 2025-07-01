@@ -4,18 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css" />
+    <script src="validations.js"></script>
     <title>Contact-me</title>
 </head>
 <body>
     <h1 class="heading">Contact</h1>
     <form class="contactForm">
         <label for="name">Name <span class="imp">*</span></label>
-        <input id="name" type="text" class="input name" required/>
+        <input id="name" type="text" value="" class="input name" required/>
         <label for="email">Email <span class="imp">*</span></label>
-        <input id="email" type="email" class="input email" required/>
+        <input id="email" type="email" value="" class="input email" required/>
         <label for="message">Message <span class="imp">*</span></label>
         <textarea id="message" class="input message" required></textarea>
-        <button class="button">Submit</button>
+        <p class="toastMessage" id="toast"></p>
+        <button id="Submit" class="button">Submit</button>
     </form>
 </body>
 </html>
